@@ -22,21 +22,47 @@ void dash()             //when the dash function is called then the led glows fo
   delay(1000);
 }
 
-// the loop function runs over and over again forever
-void loop() {
-  // This is the morse code for my name 'Disha'
+void char_a()
+{
+   dot();
+   dash();
+}
+
+void char_b()
+{
   dash();
   dot();
   dot();
   dot();
+}
+void char_c()
+{
+  dash();
+  dot();
+  dash();
+  dot();
+}
+
+// the loop function runs over and over again forever
+void loop() {
+  // This is the morse code for my name 'Disha'
+  //for character d
+  dash();
+  dot();
+  dot();
+  //for character I
+  dot();
+  dot();
+  //for character S
+  dot();
+  dot();
+  dot();
+  //for character H
   dot();
   dot();
   dot();
   dot();
-  dot();
-  dot();
-  dot();
-  dot();
+  //for character A
   dot();
   dash();
 }
